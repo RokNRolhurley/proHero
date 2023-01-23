@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 15px;
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* border: 5px solid red; */
+
+        }
+        .login-form input{
+            margin-top: 5px;
+            font-size: 1.5em;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .login-form input[type="submit"]{
+            background-color: orange;
+            color: white;
+
+        }
+
+    </style>
+
+    <title>Login Html</title>
+    <script src="https://kit.fontawesome.com/cf2f0b4959.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+             <span>
+                <a href="Home"><i class="fa-solid fa-house"></i> Home</a>
+                <a href=""><i class="fa-solid fa-gauge"></i> Dashboard</a>
+                <a href=""><i class="fa-solid fa-sliders"></i> Settings</a>
+            </span>    
+        
+            <span>
+                <a href=""><i class="fa-solid fa-circle-info"></i> Contact</a>
+                <a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i> LogOut</a>
+                <i class="fa-solid fa-user"></i>
+            </span>
+        </nav>
+        
+        
+    </header>
+    <section class="login-container">
+        <form class="login-form">
+            <h2>Please login</h2>
+            <input type="email" name="email" id="" placeholder="Enter email">
+            <input type="password" name="password" id="" placeholder="Enter password ">
+            <input type="submit" value="Submit">
+            
+        </form>    
+    </section>
+    
+</body>
+</html>
