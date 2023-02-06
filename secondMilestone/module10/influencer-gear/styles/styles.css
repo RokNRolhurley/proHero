@@ -1,0 +1,334 @@
+/* Define Grid areas */
+
+/* .header-block, .first-block, .second-block,.third-block, .fourth-block, .fifth-block{
+        display: none;
+    } */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* utility styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f3f1ff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+}
+
+hr{
+    width: 1110px;
+    height: 1px;
+    background-color: #C0CCDA;
+}
+/* .container{
+    margin-bottom: 25px;
+} */
+/* Header block styling */
+
+.header-title{
+    font-size: 24px;
+    color: #3A3A3A;
+    margin: 87px 0 0 120px;
+
+}
+nav{
+    display: flex;
+    justify-content:flex-end ;
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+.nav-title{
+    /* font-weight: 800; */
+    font-size: 16px;
+    color: #3A3A3A;
+}
+nav ul{
+    display: flex;
+    align-items:flex-end;
+}
+nav li{
+    list-style: none;
+    margin-left:34px;
+}
+
+/* First block styling */
+.first-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.journey-start{
+    width: 582px;
+    height: 270px
+}
+.journey-image{
+    background-image: url(../img/images/Circle\ design.svg);
+    background-size: 100%;
+    margin-bottom: 70px;
+    margin-left: 133px;
+}
+.section-title{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.section-description{
+    font-size: 16px;
+    color: #3A3A3A;
+    margin: 16px 0 16px 0;
+
+}
+.btn-primary{
+width: 196px;
+height: 44px;
+background-color:  #E02C6D;
+border-radius: 41px;
+border: 0;
+color: white;
+}
+
+.journey-img img{
+    width: 440px;
+    height: 414px;
+}
+
+/* Second-block stying */
+.second-block{
+    margin: 69px 0 69px 0;
+}
+
+.ad-images{
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Third-block styling */
+.third-block{
+    margin-bottom: 100px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 50px;
+}
+.collection{
+    border-radius: 5px;   
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); ;
+}
+.collection-banner {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 17px 14px 16px 14px;
+}
+
+.collection-details{
+    align-items: center;
+    justify-content: space-between;
+}
+.collection-title{
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0 2px 14px;
+}
+.collection-price{
+    font-size: 24px;
+    color: #000000;
+    margin-left: 14px;
+    
+}
+.collection-description{
+    font-size: 14px;
+    color:#787885;
+    width: 196px;
+    height: 61px;
+    margin-left: 14px;
+}
+.collection-rating{
+    margin-left: 14px;
+}
+.fa-star{
+    width: 12px;
+}
+.fa-star.filled{
+    color: #ffc014 
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.rating-point{
+    margin-left: 15px;
+}
+.see-more{
+    width: 99px;
+    height: 24px;
+    color:  #E02C6D;
+    font-size: 16px;
+    border: 0;
+}
+.collection-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Fourth-block styling */
+.featured-product{
+    display: flex;
+    width: 1110px;
+    height: 270px;
+}
+.featured-description{
+    width: 610px;
+    height: 224px;
+    margin-left: 100px;
+}
+.feature-title{
+    font-size: 38px;
+    color: #0A0826;
+}
+.feature-description{
+    font-size: 16px;
+    color: #6c6c6c;
+}
+.btn-secondry{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* fifth block styling */
+
+
+.icon-buttons{
+   display: flex;
+   gap: 20px;
+}
+
+.fifth-block{
+    width: 262px;
+    height: 139px;
+    justify-content: center;
+    color: white;
+}
+
+.footer{
+    width: 1440px;
+    height: 239px;
+    background-color: #0A0826;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 100px;
+}
+
+/* media styling */
+
+@media only screen and (max-width: 688px){
+    nav,hr,.ad-images{
+        display: none;
+    }
+    .first-block, .header-block, .collections, .fourth-block, .featured-product{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .first-block, .featured-product{
+        flex-direction: column-reverse;
+        margin-top: 14px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+       
+    .journey-start{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-title{
+        display: flex;
+         width: 321px;
+        height: 78px;
+        font-size: 28px;
+    }
+    .section-description{
+        width: 321px;
+        height: 78px;
+        font: size 14px; ;
+        margin-bottom: 20px;
+    }
+    
+    
+    .journey-image img{
+        width: 257px;
+        height: 257px;
+        justify-content: center;
+        align-items: center;
+    }
+    .title, .ad-images, .collections, .featured-product{
+        flex-direction: column;
+    }
+
+    .featured-product{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 50px 20px 60px 0;
+    }
+    .featured-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 60px;
+    }
+    .feature-title{
+        width: 311px;
+        height: 72px;
+        font-size: 29px;
+       
+    }
+
+    .feature-description{
+        width: 329px;
+        height: 88px;
+        font-size: 16px;
+    }
+
+    .btn-secondry{
+        margin-bottom: 30px;
+        width: 155px;
+        height: 44px;
+    }
+
+}
+
+@media only screen  and (min-width:689px) and (max-width: 992px){
+    
+    .journey-start, .ad-images,.collections, .fourth-block, .featured-product{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
