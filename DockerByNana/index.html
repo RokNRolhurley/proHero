@@ -1,0 +1,73 @@
+ <html>
+
+
+<Script>
+    function editProfile() {
+        document.querySelector('.container').style.display ='none'
+        document.querySelector('.container-edit').style.display = 'block'
+
+        const name = document.querySelector('#name').textContent
+        document.querySelector('#input-name').value = name
+        
+        const email = document.querySelector('#email').textContent
+        document.querySelector('#input-email').value = email
+        
+        const interests = document.querySelector('#interests').textContent
+        document.querySelector('#input-interests').value = interests
+    }
+
+
+    function saveProfile() {
+        document.querySelector('#name').textContent = document.querySelector('#input-name').value
+        document.querySelector('#email').textContent = document.querySelector('#input-email').value
+        document.querySelector('#interests').textContent = document.querySelector('#input-interests').value
+
+        document.querySelector('.container').style.display = 'block'
+        document.querySelector('.container-edit').style.display = 'none'
+    }
+
+</Script>
+    <style>
+        
+    </style>
+
+<body>
+    
+    <div class='container'>
+        <h1 id='header'>User Profile</h1>
+        <img style="height: 400px; width: 350px;" src="/thirdMilestone/mustang.jpg" alt="">
+        <hr />
+        Name: <h3 id='name'>Ms Smith</h3>
+        <hr />
+        Email: <h3 id='email'>mssmith@rtcadf.com</h3>
+        <hr />
+        Interest: <h3 id='interests'>Coding</h3>
+        <hr />
+        <button class='button' onclick="editProfile()">Edit Profile</button>
+    </div>
+    <div class='container-edit'>
+        <h1 id='header'>User Profile</h1>
+        <img style="height: 400px; width: 350px;" src="/thirdMilestone/mustang.jpg" alt="">
+        <hr />
+        Name: <input id='input-name' type='text'/>
+        <hr />
+        Email: <input id='input-email' type='email'/>
+        <hr />
+        interests: <input id='input-interests' type='text'/>
+        <hr />
+        <button class='button' onclick="saveProfile()">Save Profile</button>
+    </div>
+
+    <!-- <div class="form ">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="your Name">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your email">    
+                    <label for="exampleFormControlInput1" class="form-label">Interest</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your Interest">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+    </div> -->
+    
+    
+</body>
+</html>
