@@ -102,18 +102,32 @@
             <div class="flex flex-col items-center p-10">
                 <h1 class="text-5xl">Best offers for you</h1>
                 <div >                                                      
-                    <div class="flex fle                                                                                                                    x-row ">
-                      <div class="flex flex-row bg-yellow-400 border-solid p-24 rounded                           f                                                                                                              ">
+                  <!-- yellow-banner -->
+                    <div class="flex flex-row gap-4 pt-6">
+                      <div class="flex flex-row bg-yellow-400 border-solid px-12 py-15 rounded">
                             <div class="flex flex-col">
-                                <h1 class="text-5xl pb-2"> 15% OFF</h1>
+                                <h1 class="text-5xl py-6"> 15% OFF</h1>
                                 <h1 class="text-xl pb-2">On your next purchase</h1>
                                 <h1 class="text-xl pb-2">use by January 2024</h1>
                             </div>
-                            <div class="">
-                                <h1> NEW 15</h1>
+                            <img src="./images/cupon-devider.png" alt="" srcset="">
+                            <div class="flex flex-col justify-center items-center ">
+                                <h1 class="text-4xl">NEW 15</h1>
+                                <h2 class="text-2xl">Coupon Code</h2>
                             </div>  
                         </div>
-                        <img src="./images/yellowCoupon.png" alt="" srcset="">
+                        <div class="flex flex-row bg-yellow-400 border-solid px-12 py-15 rounded">
+                            <div class="flex flex-col">
+                                <h1 class="text-5xl py-6"> 15% OFF</h1>
+                                <h1 class="text-xl pb-2">On your next purchase</h1>
+                                <h1 class="text-xl pb-2">use by January 2024</h1>
+                            </div>
+                            <img src="./images/cupon-devider.png" alt="" srcset="">
+                            <div class="flex flex-col justify-center items-center ">
+                                <h1 class="text-4xl">NEW 15</h1>
+                                <h2 class="text-2xl">Coupon Code</h2>
+                            </div>  
+                        </div>
                     </div>
                     
                 </div>
@@ -140,18 +154,21 @@
                             <p>Coach-009-WEB | AC Business</p>
                         </div>    
                         </div>
-                        <div>
-                            <button class="text-white p-5 bg-green-400 rounded"><span>40</span> Seats left</button>
+                        <div class="">
+                            
+                            <div class="flex flex-row text-white p-5 bg-green-300 rounded gap-1">
+                                <img src="./images/seat-green-filled.png" alt="" srcset="">
+                                <span>40</span> Seats left</div>
                         </div>
                     </div>
                     <!-- Bus schedule -->
                     <div class="border bg-slate-100 flex flex-col">
-                        <div class="flex flex-row justify-between">
+                        <div class="flex flex-row justify-between px-2">
                             <h1 class="">Route</h1>
                             <h1 class="">Dhaka - Sylhet</h1>
                         </div>
                         <div class="divider divider-accent flex w-full p-2"></div>
-                        <div class="flex flex-row justify-between ">
+                        <div class="flex flex-row justify-between px-2">
                             <h1>Departure Time</h1>
                             <div class="divider divider-accent"></div>
                             <h1>9:00 PM</h1>
@@ -180,8 +197,9 @@
         </div> 
      </section>
 
-     <section>
-            <div id="all-seats" class="flex flex-row pl-36 bg#F7F8F8">
+     <section id="container">
+            <div id="" class="flex flex-row pl-36 bg#F7F8F8">
+                <!-- All the Seats -->
                 <div class="flex flex-col">
                     <h1>Select Your Seat</h1>
                     <div class="divider divider-accent flex w-full"></div>
@@ -200,113 +218,163 @@
                     <div id="driver-img" class="flex">
                         <img src="./images/bus-icon.png" alt="" srcset="">
                     </div>
-                   <div id="all-seats" class="flex flex-row grid-cols-5 grid-rows-10">
+
+                    <!-- All the seat -->
+                   <div id="all" class="flex flex-row grid-cols-5 grid-rows-10">
                         
                         <div class="rounded p-2">
-                            <div id="available-1" class="">A</div>
-                            <div id="available-2" class="">B</div>
-                            <div id="available-3" class="">C</div>
-                            <div id="available-4" class="">D</div>
-                            <div id="available-5" class="">E</div>
-                            <div id="available-6" class="">F</div>
-                            <div id="available-7" class="">G</div>
-                            <div id="available-8" class="">H</div>
-                            <div id="available-9" class="">I</div>
-                            <div id="available-10" class="">J</div>
+                            <div id="available-1" >A</div>
+                            <div id="available-2" >B</div>
+                            <div id="available-3" >C</div>
+                            <div id="available-4" >D</div>
+                            <div id="available-5" >E</div>
+                            <div id="available-6" >F</div>
+                            <div id="available-7" >G</div>
+                            <div id="available-8" >H</div>
+                            <div id="available-9" >I</div>
+                            <div id="available-10">J</div>
                         </div>
-                        <div class="rounded p-2">
-                            <div id="seat11" class="">A1</div>
-                            <div id="seat12" class="">B1</div>
-                            <div id="seat13" class="">C1</div>
-                            <div id="seat14" class="">D1</div>
-                            <div id="seat15" class="">E1</div>
-                            <div id="seat16" class="">F1</div>
-                            <div id="seat17" class="">G1</div>
-                            <div id="seat18" class="">H1</div>
-                            <div id="seat19" class="">I1</div>
-                            <div id="seat20" class="">J1</div>
+                        <div class="rounded p-2 seats">
+                            <div id="seat11" >A1</div>
+                            <div id="seat12" >B1</div>
+                            <div id="seat13" >C1</div>
+                            <div id="seat14" >D1</div>
+                            <div id="seat15" >E1</div>
+                            <div id="seat16" >F1</div>
+                            <div id="seat17" >G1</div>
+                            <div id="seat18" >H1</div>
+                            <div id="seat19" >I1</div>
+                            <div id="seat20" >J1</div>
                         </div>
-                        <div class="rounded p-2">
-                            <div id="seat21" class="">A2</div>
-                            <div id="seat22" class="">B2</div>
-                            <div id="seat23" class="">C2</div>
-                            <div id="seat24" class="">D2</div>
-                            <div id="seat25" class="">E2</div>
-                            <div id="seat26" class="">F2</div>
-                            <div id="seat27" class="">G2</div>
-                            <div id="seat28" class="">H2</div>
-                            <div id="seat29" class="">I2</div>
-                            <div id="seat30" class="">J2</div>
+                        <div class="rounded p-2 seats">
+                            <div id="seat21">A2</div>
+                            <div id="seat22">B2</div>
+                            <div id="seat23">C2</div>
+                            <div id="seat24">D2</div>
+                            <div id="seat25">E2</div>
+                            <div id="seat26">F2</div>
+                            <div id="seat27">G2</div>
+                            <div id="seat28">H2</div>
+                            <div id="seat29">I2</div>
+                            <div id="seat30">J2</div>
                         </div>
-                        <div class="rounded p-2">
-                            <div id="seat31" class="">A3</div>
-                            <div id="seat32" class="">B3</div>
-                            <div id="seat33" class="">C3</div>
-                            <div id="seat34" class="">D3</div>
-                            <div id="seat35" class="">E3</div>
-                            <div id="seat36" class="">F3</div>
-                            <div id="seat37" class="">G3</div>
-                            <div id="seat38" class="">H3</div>
-                            <div id="seat39" class="">I3</div>
-                            <div id="seat40" class="">J3</div>
+                        <div class="rounded p-2 seats">
+                            <div id="seat31">A3</div>
+                            <div id="seat32">B3</div>
+                            <div id="seat33">C3</div>
+                            <div id="seat34">D3</div>
+                            <div id="seat35">E3</div>
+                            <div id="seat36">F3</div>
+                            <div id="seat37">G3</div>
+                            <div id="seat38">H3</div>
+                            <div id="seat39">I3</div>
+                            <div id="seat40">J3</div>
                         </div>
-                        <div class="rounded p-2">
-                            <div id="seat41" class="">A4</div>
-                            <div id="seat42" class="">B4</div>
-                            <div id="seat43" class="">C4</div>
-                            <div id="seat44" class="">D4</div>
-                            <div id="seat45" class="">E4</div>
-                            <div id="seat46" class="">F4</div>
-                            <div id="seat47" class="">G4</div>
-                            <div id="seat48" class="">H4</div>
-                            <div id="seat49" class="">I4</div>
-                            <div id="seat50" class="">J4</div>
+                        <div class="rounded p-2 seats">
+                            <div id="seat41">A4</div>
+                            <div id="seat42">B4</div>
+                            <div id="seat43">C4</div>
+                            <div id="seat44">D4</div>
+                            <div id="seat45">E4</div>
+                            <div id="seat46">F4</div>
+                            <div id="seat47">G4</div>
+                            <div id="seat48">H4</div>
+                            <div id="seat49">I4</div>
+                            <div id="seat50">J4</div>
                         </div>
                    </div>
                </div>
+               <!-- Select seats & price -->
                <div class="pl-20 w-max">
                     <div>
                         <h1>Select Your Seat</h1>
                         <div class="divider divider-accent flex w-full"></div>
                     </div>
                     <div class="flex flex-row justify-between">
-                        <h1>Seat</h1>
-                        <h1>Class</h1>
-                        <h1>Price</h1>
+                        <div class="flex flex-col hidden">
+                           <h1>Seat</h1>
+                           <span id="add-seat" class="py-6 hidden"></span> 
+                        </div>
+                        <div class="flex flex-col hidden">
+                            <h1>Class</h1>
+                            <span id="add-class" class="py-6 hidden"></span>
+                        </div>
+                        <div class="flex flex-col hidden">
+                            <h1 class="">Price</h1>
+                            <span id="add-price" class="py-6 hidden"></span>
+                        </div>
                     </div>
+
+                    <div>
+                        <form>
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <th id="table-seat">Seat</th>
+                                        <th id="table-eco" class="pl-9">Class</th>
+                                        <th id="table-price" class="pl-9">Price</th>
+                                    </tr>
+                                    
+                                </thead>
+                                <tbody class="tbody-script">
+                                    
+                                </tbody>
+                                <tfoot>
+                                    
+                                    <tr>
+                                        <th id="tota-price">Total Price</th>
+                                        <th></th>
+                                        <th id="tota-pric"></th>
+                                    </tr>
+                                    <tr>
+                                        <th id="gran-total">Grand Total</th>
+                                        <th></th>
+                                        <th id="grand-price"></th>
+                                    </tr>
+                                </tfoot>
+
+                            </form>
+                        </table>
+                    </div>
+
+                   
                     <div class="divider divider-accent flex w-full"></div>
-                    <!-- need to add seat, economy, price  -->
-                     <div></div>
-                     <div class="divider divider-accent flex w-full"></div>
                     <div class="flex flex-row justify-between pb-3">
                         <h1>Total Price</h1>
-                        <h1>BDT <span>550</span></h1>
+                        <h1>BDT <span id="total-price"></span></h1>
                     </div>  
                     <!-- need to add coupon field -->
                     <div></div>
                     <div class="flex flex-row justify-between pb-3">
                         <h1>Grand Total</h1>
-                        <h1>BDT <span>1000</span></h1>
+                        <h1>BDT <span id="grand-total"></span></h1>
                     </div>
                     <div class="flex flex-col pt-10">
                         <h1>Passenger Name*</h1>
-                        <input type="text" name="" id="" >
+                        <input type="text" name="" id="passName" placeholder="Passenger Name" >
                     </div>
                     <div class="flex flex-col pt-4">
-                        <h1>Phone*</h1>
-                        <input type="number" name="" id="">
+                        <h1>Phone number*</h1>
+                        <input type="number" name="" id="phoneNum" placeholder="Phone number">
                     </div>
-                    <div class="flex flex-col pt-4">
-                        <h1>Email*</h1>
-                        <input type="email" name="" id="">
+                    <div class="flex flex-col py-4 ">
+                        <h1>Email Address*</h1>
+                        <input type="email" name="" id="eMail" placeholder="Email Address">
                     </div>
+
+                    <div class="flex flex-row justify-center border-solid bg-orange-400 text-sky-500 ">
+                        <button class="submit">Submit</button>
+                    </div>
+                    
                 </div>
             </div>
             
         </section>
     </main>   
-   <script src="./busTicket.js"></script>
-   <script src="./utility.js"></script>
+   <script src="./script/busUtility.js"></script>
+   <script src="./script/busTicket.js"></script>
+   <script src="./script/createTable.js"></script>
+   <script src="./script/totalCalculation.js"></script>
     
 </body>
 </html>
