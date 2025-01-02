@@ -34,3 +34,25 @@
     height: auto;
     width: auto;
 }
+
+#table {
+    text-align: center;
+}
+
+#table th,
+#table td {  
+    text-align: right;
+    
+}
+
+#passName{
+    border: solid 1px black;
+}
+
+#phoneNum{
+    border: solid 1px black;
+}
+
+#eMail{
+    border: solid 1px black;
+}
