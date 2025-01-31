@@ -1,0 +1,1 @@
+const print = (value) => console.log(value);l
