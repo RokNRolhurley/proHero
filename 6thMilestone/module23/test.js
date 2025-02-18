@@ -1,28 +1,53 @@
 
-
-function findOdds(numbers) {
-
-    for(let i = 0; i < numbers.length; i++){
-
-        if (numbers[i] % 2 != 0){
-            let result = numbers[i];
-            let lienResult = result.join(',');
-            // let sum = 0;
-            // for(let num of result ){
-            //     sum += num;
-            // }
-            console.log(lienResult);
-        }
-        else{
-            
-            
-        }
-        
-    }
+const checkEvenLength = (arrOfFriends) => {
+    //write your code here
+    for(let i = 0; i < arrOfFriends.length; i++){
+      
+      if(arrOfFriends[i] <4 ){
+        let newFriends = arrOfFriends[i];
     
-}
-let numbers = [2,4,5,7,9,11,53,23];
-findOdds(numbers);
+        console.log(newFriends);
+    }
+        // return arrOfFriends[i];
+        // console.log(newFriends);
+    }
+
+    }
+
+    let array = ['John', 'James', 'Jane', 'Ratul'];
+    checkEvenLength(array);
+
+
+
+
+// function helloUniverse(){
+//     //complete your code 
+//     //Must return
+    
+//       let value = console.log("Hello Universe!! Welcome me to JS World!!!");
+//       return value;
+//     }
+
+//     helloUniverse();
+
+
+// function findOdds(arrOfNumbers) {
+    
+//     let sum =0;
+//     for(let i = 0; i < arrOfNumbers.length; i++){
+
+//         if (arrOfNumbers[i] % 2 != 0){
+//             sum += arrOfNumbers[i];
+//         }
+            
+//         }
+//         console.log(sum);
+        
+//     }
+    
+
+// let numbers = [2,4,5,7,9,11,53,23];
+// findOdds(numbers);
 
 
 

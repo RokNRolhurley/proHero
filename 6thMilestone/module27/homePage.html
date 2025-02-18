@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <body>
+      <main class=""> 
+          <div class="mockup-phone ">
+              <div class="camera"></div>
+                  <div class="display">
+                      <div class="artboard artboard-demo phone-3 bg-slate-200 flex justify-center overflow-y-auto">
+                            
+                        <div class="flex flex-row justify-between gap-6">
+                          <!-- Available Balance -->
+                            <div class=" ">
+                                <div class="">
+                                  <div id="amt-total" class="text-l text-black">400500</div>
+                                  <div class="text text-black">Available Balance</div>
+                                </div>
+                            </div>
+                            <div>
+                              <button id="btn-logOut" class="btn">Log Out</button>
+                            </div>
+                        </div>   
+                        <div class="divider"></div>
+                            <!-- User action button -->
+                             <div  class=" grid grid-cols-2 gap-2 bg-slate-100">
+                                <button id="btn-addMoney" class="btn">Add Money</button>
+                                <button id="btn-cashOut" class="btn">Cash Out</button>
+                                <button id="btn-transferMoney" class="btn">Transfer Money</button>
+                                <button id="btn-payBill" class="btn">Pay BIll</button>
+                                <button id="btn-getBonus" class="btn">Get Bonus</button>
+                                <button id="btn-getBonus" class="btn">Transaction</button>
+                        </div>
+                          
+                             <div class="divider"></div>
+                           
+                            <!-- Add Money form form start -->
+                                <div id="addMoneyForm" class="card bg-slate-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
+                                <form class="card-body">
+                                  <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Amount</span>
+                                    </label>
+                                    <input id="addMoneyAmount" type="text" placeholder="Amount" class="input input-bordered bg-transparent" required />
+                                  </div>
+                                  <div class="form-control">
+                                    <label class="label">
+                                      <span class="label-text">Pin</span>
+                                    </label>
+                                    <input id="addMoneyPin" type="password" placeholder="Pin" class="input input-bordered bg-transparent" required />
+                                    <!-- <label class="label">
+                                      <a href="#" class="label-text-alt link link-hover ">Forgot password?</a>
+                                    </label> -->
+                                  </div>
+                                  <div class="form-control mt-6">
+                                    <button id="btn-addMoneyPlus" class="btn btn-primary bg-transparent">Add Money</button>
+                                  </div>
+                                </form>
+                                </div>
+
+                                <div id="cashOutForm" class="card bg-slate-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
+                            <form class="card-body">
+                              <div class="form-control">
+                                <label class="label">
+                                  <span class="label-text">Amount</span>
+                                </label>
+                                <input id="cashOutAmount" type="text" placeholder="Amount" class="input input-bordered bg-transparent" required />
+                              </div>
+                              <div class="form-control">
+                                <label class="label">
+                                  <span class="label-text">Pin</span>
+                                </label>
+                                <input id="cashOutPin" type="password" placeholder="Pin" class="input input-bordered bg-transparent" required />
+                              </div>
+                              <div class="form-control mt-6">
+                                <button id="btn-cashOutPlus" class="btn btn-primary bg-transparent">Cash Out</button>
+                              </div>
+                            </form>
+                                </div>
+
+                                <div id="transferMoneyForm" class="card bg-slate-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
+                          <form class="card-body">
+                            
+                            <div class="form-control">
+                              <label class="label">
+                                <span class="label-text">Account</span>
+                              </label>
+                              <input id="transferAccount" type="text" placeholder="Enter Account Number" class="input input-bordered bg-transparent" required />
+                            </div>
+                            
+                            <div class="form-control">
+                              <label class="label">
+                                <span class="label-text">Amount</span>
+                              </label>
+                              <input id="transferAmount" type="text" placeholder="Enter Amount" class="input input-bordered bg-transparent" required />
+                            </div>
+
+                            <div class="form-control">
+                              <label class="label">
+                                <span class="label-text">Pin</span>
+                              </label>
+                              <input id="transferPin" type="password" placeholder="Enter Pin" class="input input-bordered bg-transparent" required />
+                            </div>
+                            <div class="form-control mt-6">
+                              <button id="btn-transferMoneyPlus" class="btn btn-primary bg-transparent">Send Now</button>
+                            </div>
+                          </form>
+                                </div>
+
+                                <div id="payBillForm" class="card bg-slate-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
+                        <form class="card-body">
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Account</span>
+                            </label>
+                            <input id="payBillAccount" type="text" placeholder="Enter Account Number" class="input input-bordered bg-transparent" required />
+                          </div>
+                         
+                         
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Amount</span>
+                            </label>
+                            <input id="payBillAmount" type="text" placeholder="Enter Amount" class="input input-bordered bg-transparent" required />
+                          </div>
+                         
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Pin</span>
+                            </label>
+                            <input id="payBillPin" type="password" placeholder="Enter Pin" class="input input-bordered bg-transparent" required />
+                          </div>
+                          <div class="form-control mt-6">
+                            <button id="btn-payBillPlus" class="btn btn-primary bg-transparent">Pay Now</button>
+                          </div>
+                        </form>
+                                </div>
+
+                                <div id="getBonusForm" class="card bg-slate-100 w-full    max-w-sm   shrink-0 shadow-2xl hidden">
+                                  <form class="card-body">
+                                    <div class="form-control">
+                                      <h1 class="text-bold">Get Bonus</h1>
+                                      <label class="label">
+                                        <span class="label-text">Enter Bonus Code</span>
+                                      </label>
+                                      <input id="getBonusAmount" type="text" placeholder="Enter Your Coupon" class="input input-bordered bg-transparent" required />
+                                    </div>
+                                    <div class="form-control mt-6">
+                                      <button id="btn-getBonusPlus" class="btn btn-primary bg-transparent">Get Bonus</button>
+                                    </div>
+                                  </form>
+                                </div>
+
+                                <div class="divider"></div>
+
+                                <div id="transactionHistorForm" class=" bg-slate-100 w-full max-w-sm shrink-0 shadow-2xl  hidden">
+                                  <form class="card-body">
+                                    <h1>Transaction History</h1>
+                                    <div id="transaction-container" class="space-y-3">
+
+                                    </div>
+                                  </form>
+                                </div>
+
+                            <!-- Add money form end -->
+                       </div>
+                  </div>
+              </div>
+           </div>     
+      </main>
+
+    
+        <script src="./scripts/homePage.js"></script>
+        <script src="./scripts/addMoney.js"></script>
+        <script src="./scripts/library.js"></script>
+        <script src="./scripts/cashOut.js"></script>
+        <script src="./scripts/transferMoney.js"></script>
+        <script src="./scripts/features.js"></script>
+        <script src="./scripts/payBill.js"></script>
+        <script src="./scripts/getBonus.js"></script>
+    </body>
+</html>
