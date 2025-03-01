@@ -19,10 +19,19 @@ function showSectionById(id){
     document.getElementById('transferMoneyForm').classList.add('hidden');
     document.getElementById('payBillForm').classList.add('hidden');
     document.getElementById('getBonusForm').classList.add('hidden');
-    document.getElementById('transactionHistorForm').classList.add('hidden');
+    // document.getElementById('transactionHistorForm').classList.add('hidden');
     //show the section requested
     document.getElementById(id).classList.remove('hidden');
 }
+
+
+function getCurrentDate(){
+    const currentDate = new Date();
+    const currentDateFT = Date.toLocatDateString('en-US',{
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    })}
 
 
 
@@ -40,3 +49,4 @@ function showElementById(elementId){
     const element = document.getElementById(elementId);
     element.classList.remove('hidden');  
 }
+

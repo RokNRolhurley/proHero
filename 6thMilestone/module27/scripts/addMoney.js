@@ -22,13 +22,16 @@ let addMoneyPin = getInputValueById('addMoneyPin');
 if(addMoneyPin === 912){
     let balance = getInputTextById('amt-total');
     let newBalance = balance + getaddMoneyInput;
+   
+    
     
     //update the new amount into main total
     document.getElementById('amt-total').innerText = newBalance;
 
     //add to transaction history
     const p = document.createElement('p');
-    p.innerText = `Added: ${getaddMoneyInput} Tk. balance: ${newBalance}`;
+    p.innerText = `Added: ${getaddMoneyInput} Tk. balance: ${newBalance}
+    ${getCurrentDate()}`;
     console.log(p);
 
     //Should be a common function
