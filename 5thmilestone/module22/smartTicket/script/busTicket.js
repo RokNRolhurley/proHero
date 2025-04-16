@@ -18,7 +18,7 @@ function handleClickEvent(event){
         // console.log(seatNum)
         // const seatsId = event.target; 
         console.log('seatsId-',seatsId);
-        var counter = 0;
+        let counter = 0;
     
         // const seatId = event.target.id;
         // console.log(seatId);
