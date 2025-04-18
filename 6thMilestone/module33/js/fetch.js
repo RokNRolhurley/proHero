@@ -27,6 +27,14 @@ function loadUsers(){
     .then(data => displayUsers(data))
 }
 
+function loadUsers2(){
+  const url = 'https://jsonplaceholder.typicode.com/users';
+  fetch(url)
+  // .then(response => console.log(response))
+    .then(response => response.json())
+    .then(data => displayUsers(data))
+}
+
 function displayUsers(data){
   console.log(data);
 }

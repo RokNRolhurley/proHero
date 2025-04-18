@@ -22,3 +22,25 @@ function loadUsers2(){
     // const data0 = data[0];
     // console.log(data0);
   }
+
+  function deleteAPost() {
+    const url = 'https://jsonplaceholder.typicode.com/posts/1';
+    fetch(url, {
+        method: 'DELETE',
+    });    
+}
+
+function patchAPost() {
+    const url = 'https://jsonplaceholder.typicode.com/posts/1';
+    fetch(url,{
+        method: 'PATHC',
+        body: JSON.stringify({
+            title: 'foo'
+        }),
+        headers: {
+            'content-type': 'applciation/json; charset=UTF-8',
+        },
+    })
+    .then((response) => response.json())
+    .then((json) => console.log(json)); 
+}
