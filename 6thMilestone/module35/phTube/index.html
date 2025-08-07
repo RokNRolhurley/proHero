@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>PHTube</title>
+</head>
+<body>
+    
+        <header>
+            <nav class=" w-11/12 mx-auto py-3 flex justify-between border-b">
+                <div class="logo w-[100px]">
+                    <img src="./img/Logo.png" alt="" >
+                </div>
+                 
+                <div class="search">
+                   <label class="input">
+                        <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            stroke-width="2.5"2
+                            fill="none"
+                            stroke="currentColor"
+                            >
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                            </g>
+                        </svg>
+                        <input type="search" class="grow" placeholder="Search" />
+                        <kbd class="kbd kbd-sm">K</kbd>
+                     </label>
+                </div>
+
+                <div class="sort">
+                    <button class="btn">SORT</button>
+                </div>
+            </nav>
+            
+            <nav id="categories" class="py-3 flex gap-5 justify-center " > </nav>
+        </header>
+
+        <main>
+            <section id="videos" class=" w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 border-b">
+                
+            </section>
+
+
+            <footer class="">
+                   <div class="copyright">
+                        <p>All Rights Reserved to Sakil Mahbub@2025</p>
+                        <p>Empire State College</p>     
+                   </div> 
+                    
+            </footer>
+
+        </main>
+
+<script src="./script/api.js"></script>
+
+</body>
+</html>
