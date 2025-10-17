@@ -23,7 +23,11 @@ const loadCategoryVideos = (id) => {
     const url = `https://openapi.programming-hero.com/api/phero-tube/category/${id}`;
     fetch(url)
       .then(res => res.json())
-      .then((data) => displayVideos(data.category))
+      .then((data) =>{
+        const activeBtn = document.getElementById(`btn-${id}`);
+        activeBtn.classList.add("active");
+        console.log(activeBtn);
+        displayVideos(data.category)} )
       .catch((error) => console.log(error));
 
 }
@@ -39,7 +43,7 @@ const displayCategories = (categories) => {
     // console.log(item)
     const buttonContainer= document.createElement("div");
     buttonContainer.innerHTML = `
-    <button onClick="loadCategoryVideos(${item.category_id})" class="btn">
+    <button id="btn-${item.category_id}" onClick="loadCategoryVideos(${item.category_id})" class="btn category-btn">
       ${item.category}
     </button>
     `;
@@ -59,11 +63,33 @@ function getTimeString(time){
     let year = parseInt(month / 30);
     return `${year} year ${month} month ${day} day ${hour} hour ${minute} minutes ago`
 }
-//
+//Load video details
+
+const loadDetails= async (videoID) => {
+  console.log(videoID)
+  const url = 'https://openapi.programming-hero.com/api/phero-tube/video/${VideoId}';
+  const res =  await fetch();
+
+}
+
+
 //Show Videos+++++++++
 const displayVideos = (videos) => {
   const videoContainer = document.getElementById("videos")
   videoContainer.innerHTML = "";
+
+  if(videos.length ==0){
+    videoContainer.classList.remove("grid");
+    videoContainer.innerHTML = `
+    <div class="min-h-[600px] flex flex-col gap-5 justify-center items-center">
+    <h2 class="">Sorry No Content Found</h2>
+    <img src="img/Icon.png"
+    </div>
+    `
+    return;
+  }
+  else{videoContainer.classList.add("grid");}
+
   videos.forEach((video) => {
     //  console.log(video)
     const card= document.createElement("div");
@@ -106,9 +132,11 @@ const displayVideos = (videos) => {
         
     <div></div>
     
-    <div class="flex gap-3 "></div>
+    <div class="flex gap-3 ">
+        <p> <button onClick="loadDetails('${video.video_id}')" class='btn btn-sm btn-error'>  ${"description"}  </button>  </p>
+    </div>
     
-    <p>${"description"}</p>
+    
     <div class="card-actions justify-end">
       
     </div>
