@@ -62,11 +62,14 @@ function displayLessons(lessons){
         card.innerHTML = `
 
         <div class=" border-s-violet-800 card-body px-0 py-2 flex flex-row  gap-2rounded"> 
-            <div>
-                <img w-[2px] h-[2px] src=${imgBase}${fa-book-open.png}> 
+            <div class="flex items-center">
+               <img src="${imgBase}${lesson.image}" alt="Lesson Image" class="w-20 h-20 rounded-md ml-2">
             </div>
             <div>
-                <p><strong>Level No:</strong> ${lesson.level_no|| 'No description available.'}</p>
+                <p><strong>Level No:</strong> ${lesson.level_no || 'No description available.'}</p>
+            </div>
+            <div>
+                <p><strong>${lesson.lessonName || 'Untitled Lesson'}</strong></p>
             </div>
         </div>
 
@@ -75,6 +78,7 @@ function displayLessons(lessons){
 
     //<p><strong>ID:</strong> ${lesson.id}</p>
     // <p><strong>${lesson.lessonName || 'Untitled Lesson'}</strong></p>
+    // <img w-[2px] h-[2px] src=${imgBase}${fa-book-open.png}> 
 
         lessonContainer.appendChild(card);
 
