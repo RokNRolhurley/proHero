@@ -34,7 +34,8 @@ const getProductFromLocalStorage = () => {
 const displayCartFromLocalStorage = (productName, quantity) =>{
     const products = getProductFromLocalStorage();
     for (product in products) {
-        console.log(products)
+        // console.log(product)
+        displayProduct(product, products[product])
     }
     
 }
