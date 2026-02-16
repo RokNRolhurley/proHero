@@ -1,0 +1,8 @@
+div.border-box {
+   box-sizing: border-box;
+}
+
+#noakhali-test {
+    width: 200px;
+    height: 200px;
+}

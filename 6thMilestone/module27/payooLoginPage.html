@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo V.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./style/style.css"></script>
+</head>
+<body>
+    
+    <main>
+        <div class="mockup-phone">
+           <div class="camera"></div>
+             <div class="display">
+               <div class="artboard artboard-demo phone-3">
+                
+                    <div class="hero bg-slate-200 w-full min-h-screen">
+                        <div class="hero-content flex-col">
+                          <div class="card bg-slate-100 w-full  max-w-sm shrink-0 shadow-2xl">
+                            <form class="card-body">
+                                <div class="form-control">
+                                    <label class="label">
+                                    <span class="label-text">Phone Number</span>
+                                    </label>
+                                    <input id="text-phone" type="number" placeholder="Your Phone Number" class="input input-bordered bg-slate-100" required />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label">
+                                    <span class="label-text">4 Digit Pin</span>
+                                    </label>
+                                    <input id="text-pin" type="password" placeholder="Your 4 Digit Pin" class="input input-bordered bg-slate-100" autocomplete="off" required />
+                                    <label class="label">
+                                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                    </label>
+                                </div>
+                                <div class="form-control mt-6">
+                                    <button id="btn-login" class="btn btn-primary">Login</button>
+                                </div>
+                            </form>
+                          </div>
+                        </div>
+                    </div>
+                
+              </div>
+           </div>
+        </div>
+    </main>
+    <script src="./scripts/loginPage.js"></script>
+</body>
+</html>
