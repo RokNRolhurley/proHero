@@ -2,16 +2,36 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './Todo'
-import ToDo from './Todo'
+import ToDo from './Todo';
+import Actor from './actors';
+import Singer from './Singer';
+import Library from './Library';
 
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
+  // const actors = ['Teddy', 'Andrew', 'Pine', 'Jack', 'Andy', 'Robin'];
+
+  const singers = [
+    {id: 1, name: 'George', age: 25},
+    {id: 2, name: 'Amy', age: 23},
+    {id: 3, name: 'Rock', age: 25}
+  ];
+  
+  const books = [
+    {id: 1, name: 'Math', Price: 28},
+    {id: 2, name: 'English', Price: 20},
+    {id: 3, name: 'History', Price: 20},
+    {id: 3, name: 'Physics', Price: 30}
+  ];
+
+
+
   return (
     <>
+    
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -42,11 +62,31 @@ function App() {
         <Player name="Sakil" runs="500"></Player>
         <Player name="Mahbub" runs="500"></Player> */}
       </p>
-      <ToDo task="Learn React" isDone={true} time = "30 minutes"></ToDo>    
-      <ToDo task="Revise React" isDone={true} time = "1 hr"></ToDo>    
-      <ToDo task="Emplement React" isDone={false}></ToDo>    
+      // <ToDo task="Learn React" isDone={true} time = "30 minutes"></ToDo>    
+      // <ToDo task="Revise React" isDone={true} time = "1 hr"></ToDo>    
+      // <ToDo task="Emplement React" isDone={false}></ToDo> 
+          
+
+        <h1>React Core concepts</h1>
+
+        <Library books={books}></Library>
+       
+        {
+          singers.map(singer => <Singer key={singer.id} singer ={singer}></Singer>)
+        }
+
+        
+
+        {
+          //actors.map(actor => <Actor actor={actor}></Actor>)
+        }
+
     </>
   )
+
+          
+          
+
 }
 
 function Person (){
