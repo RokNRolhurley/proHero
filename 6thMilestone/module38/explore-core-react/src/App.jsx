@@ -6,32 +6,49 @@ import ToDo from './Todo';
 import Actor from './actors';
 import Singer from './Singer';
 import Library from './Library';
-
+import Counter from './Counter';
+import Batsman from './Batsman';
 
 
 function App() {
+  
+  function handleClick(){
+    alert('I am clicked')
+  }
+
+  const handleClick3 = () => {alert('clicked 3')}
+  
+  const handleAdd5 = (num) => {
+    const newNum = num +5; 
+    alert(newNum);
+  }
+
+  
   // const [count, setCount] = useState(0)
 
   // const actors = ['Teddy', 'Andrew', 'Pine', 'Jack', 'Andy', 'Robin'];
 
-  const singers = [
-    {id: 1, name: 'George', age: 25},
-    {id: 2, name: 'Amy', age: 23},
-    {id: 3, name: 'Rock', age: 25}
-  ];
+  // const singers = [
+  //   {id: 1, name: 'George', age: 25},
+  //   {id: 2, name: 'Amy', age: 23},
+  //   {id: 3, name: 'Rock', age: 25}
+  // ];
   
-  const books = [
-    {id: 1, name: 'Math', Price: 28},
-    {id: 2, name: 'English', Price: 20},
-    {id: 3, name: 'History', Price: 20},
-    {id: 3, name: 'Physics', Price: 30}
-  ];
+  // const books = [
+  //   {id: 1, name: 'Math', Price: 28},
+  //   {id: 2, name: 'English', Price: 20},
+  //   {id: 3, name: 'History', Price: 20},
+  //   {id: 3, name: 'Physics', Price: 30}
+  // ];
 
 
 
   return (
     <>
-    
+      
+      <Counter></Counter>
+
+      <Batsman></Batsman>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -62,17 +79,22 @@ function App() {
         <Player name="Sakil" runs="500"></Player>
         <Player name="Mahbub" runs="500"></Player> */}
       </p>
-      // <ToDo task="Learn React" isDone={true} time = "30 minutes"></ToDo>    
-      // <ToDo task="Revise React" isDone={true} time = "1 hr"></ToDo>    
-      // <ToDo task="Emplement React" isDone={false}></ToDo> 
-          
+      {/* <ToDo task="Learn React" isDone={true} time = "30 minutes"></ToDo>     */}
+      {/* <ToDo task="Revise React" isDone={true} time = "1 hr"></ToDo>     */}
+      {/* <ToDo task="Emplement React" isDone={false}></ToDo>  */}
+      <button onClick={handleClick}>Click Me</button>
+      <button onClick={function handleClick2(){alert('clicked 2')}}>Click me2</button>
+      <button onClick={handleClick3}>Click me3</button>
+      <button onClick={() => alert('click 4')}>Click me4</button>
+
+      <button onClick={() => handleAdd5(20)}>Click Add 5</button>
 
         <h1>React Core concepts</h1>
 
-        <Library books={books}></Library>
+        {/* <Library books={books}></Library> */}
        
         {
-          singers.map(singer => <Singer key={singer.id} singer ={singer}></Singer>)
+          // singers.map(singer => <Singer key={singer.id} singer ={singer}></Singer>)
         }
 
         
