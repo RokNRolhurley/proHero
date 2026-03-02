@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,20 +8,52 @@ import Singer from './Singer';
 import Library from './Library';
 import Counter from './Counter';
 import Batsman from './Batsman';
+import Bawler from './Bawler';
+// import Users from './Users';
+// import Friends from './Friends';
+import Posts from './Posts';
+import Albums from './Albums';
+import Layers from './Layers';
 
+
+
+// const fetchUsers = fetch('https://jsonplaceholder.typicode.com/users')
+// .then(res => res.json())
+
+// const fetchFriends = async() =>{
+//      const res = await fetch('https://jsonplaceholder.typicode.com/users');
+//      return res.json();
+// } 
+
+// const fetchPosts = async() =>{
+//   const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+//   return res.json();
+// }
+
+// const fetchAlbums = async() =>{
+//   const res = await fetch('https://jsonplaceholder.typicode.com/albums');
+//   return res.json();
+// }
 
 function App() {
-  
-  function handleClick(){
-    alert('I am clicked')
-  }
 
-  const handleClick3 = () => {alert('clicked 3')}
+  // const albumsPromise = fetchAlbums();
   
-  const handleAdd5 = (num) => {
-    const newNum = num +5; 
-    alert(newNum);
-  }
+  // const postsPromise = fetchPosts();
+  // const friendsPromise = fetchFriends();
+
+    
+  //  function handleClick(){
+  //   alert('I am clicked')
+  // }
+ 
+
+  // const handleClick3 = () => {alert('clicked 3')}
+  
+  // const handleAdd5 = (num) => {
+  //   const newNum = num +5; 
+  //   alert(newNum);
+  // }
 
   
   // const [count, setCount] = useState(0)
@@ -46,9 +78,28 @@ function App() {
   return (
     <>
       
-      <Counter></Counter>
+    <Layers></Layers>
+
+    {/*<Suspense fallback={<div>Loading...</div>}>
+        <Albums albumsPromise={albumsPromise}></Albums>
+      </Suspense>*/}
+
+     {/* <Suspense fallback={<div>Loading...</div>}>
+          <Posts postsPromise={postsPromise}></Posts>
+      </Suspense>
+     */}
+      {/* <Suspense fallback={<div>Loading...</div>}>
+         <Users fetchUsers={fetchUsers}></Users>
+       </Suspense> */}
+      {/*<Suspense fallback={<h3>Loading Friends...</h3>}>
+        <Friends friendsPromise={friendsPromise}></Friends>
+      </Suspense>*/}
+     
+     {/* <Counter></Counter>
 
       <Batsman></Batsman>
+      <Bawler></Bawler> */}
+       
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -66,10 +117,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div> */}
-      <h2>React Core Concept</h2>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-        & Edited by me
+      
         {/* <Person></Person>
         <Student name="John Doe" dept="Physics"></Student>
         <Developer name="Nord" tech="JS"></Developer>
@@ -78,17 +126,21 @@ function App() {
         <Sports></Sports>
         <Player name="Sakil" runs="500"></Player>
         <Player name="Mahbub" runs="500"></Player> */}
-      </p>
+        <h2>React Core Concept</h2>
+        <p >
+            Click on the Vite and React logos to learn more
+            & Edited by me
+        </p>
       {/* <ToDo task="Learn React" isDone={true} time = "30 minutes"></ToDo>     */}
       {/* <ToDo task="Revise React" isDone={true} time = "1 hr"></ToDo>     */}
       {/* <ToDo task="Emplement React" isDone={false}></ToDo>  */}
-      <button onClick={handleClick}>Click Me</button>
+      {/*<button onClick={handleClick}>Click Me</button>
       <button onClick={function handleClick2(){alert('clicked 2')}}>Click me2</button>
       <button onClick={handleClick3}>Click me3</button>
       <button onClick={() => alert('click 4')}>Click me4</button>
 
       <button onClick={() => handleAdd5(20)}>Click Add 5</button>
-
+        */}
         <h1>React Core concepts</h1>
 
         {/* <Library books={books}></Library> */}
