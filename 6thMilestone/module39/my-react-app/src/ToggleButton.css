@@ -1,0 +1,26 @@
+/* ToggleButton.css */
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s; /* Smooth transitions */
+  background-color: #ccc; /* Default color (OFF) */
+  color: #333;
+}
+
+.toggle-button:hover {
+  opacity: 0.8;
+}
+
+/* Styles applied when the 'active' class is present (ON state) */
+.toggle-button.active {
+  background-color: #4CAF50; /* Active color (ON) */
+  color: white;
+}
+
+.toggle-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5); /* Focus indicator */
+}

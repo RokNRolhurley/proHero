@@ -1,7 +1,7 @@
 export default function Layers(){
    
     return(
-        <div>
+        <div className="card">
             <h3>Layers</h3>
        
        </div>
