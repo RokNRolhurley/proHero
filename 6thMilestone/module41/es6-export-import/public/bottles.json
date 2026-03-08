@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Hydro Flask Standard",
+    "brand": "Hydro Flask",
+    "capacity_ml": 621,
+    "material": "Stainless Steel",
+    "price_usd": 39.95,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8"
+  },
+  {
+    "id": 2,
+    "name": "Nalgene Wide Mouth",
+    "brand": "Nalgene",
+    "capacity_ml": 1000,
+    "material": "Tritan Plastic",
+    "price_usd": 14.99,
+    "image": "https://images.unsplash.com/photo-1526406915894-7bcd65f60845"
+  },
+  {
+    "id": 3,
+    "name": "CamelBak Chute Mag",
+    "brand": "CamelBak",
+    "capacity_ml": 750,
+    "material": "BPA-Free Plastic",
+    "price_usd": 16.0,
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883"
+  },
+  {
+    "id": 4,
+    "name": "S'well Insulated Bottle",
+    "brand": "S'well",
+    "capacity_ml": 500,
+    "material": "Stainless Steel",
+    "price_usd": 35.0,
+    "image": "https://images.unsplash.com/photo-1585238342028-4b2d5f5c1a3c"
+  },
+  {
+    "id": 5,
+    "name": "Contigo Autoseal Chill",
+    "brand": "Contigo",
+    "capacity_ml": 720,
+    "material": "Stainless Steel",
+    "price_usd": 24.99,
+    "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e"
+  }
+]
