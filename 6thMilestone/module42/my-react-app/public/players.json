@@ -1,0 +1,502 @@
+[
+  {
+    "playerId": "IND-093",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "currentPrice": "$1,933,982"
+  },
+  {
+    "playerId": "ENG-001",
+    "name": "Joe Root",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$107,443"
+  },
+  {
+    "playerId": "IND-018",
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "currentPrice": "$2,256,312"
+  },
+  {
+    "playerId": "AUS-045",
+    "name": "Cameron Green",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "currentPrice": "$2,800,000"
+  },
+  {
+    "playerId": "AFG-019",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "currentPrice": "$1,611,652"
+  },
+  {
+    "playerId": "IND-100",
+    "name": "Rishabh Pant",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Left-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$3,000,000"
+  },
+  {
+    "playerId": "SL-088",
+    "name": "Matheesha Pathirana",
+    "country": "Sri Lanka",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "currentPrice": "$2,000,000"
+  },
+  {
+    "playerId": "AUS-030",
+    "name": "Travis Head",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$730,615"
+  },
+  {
+    "playerId": "PAK-056",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$1,500,000"
+  },
+  {
+    "playerId": "ENG-088",
+    "name": "Harry Brook",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "currentPrice": "$1,289,321"
+  },
+  {
+    "playerId": "IND-008",
+    "name": "Ravindra Jadeja",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$1,719,095"
+  },
+  {
+    "playerId": "AUS-056",
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "currentPrice": "$2,659,225"
+  },
+  {
+    "playerId": "NZ-003",
+    "name": "Daryl Mitchell",
+    "country": "New Zealand",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "currentPrice": "$1,504,208"
+  },
+  {
+    "playerId": "SA-010",
+    "name": "Heinrich Klaasen",
+    "country": "South Africa",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$2,500,000"
+  },
+  {
+    "playerId": "IND-099",
+    "name": "Shubman Gill",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$859,548"
+  },
+  {
+    "playerId": "AUS-007",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "currentPrice": "$2,060,000"
+  },
+  {
+    "playerId": "IND-077",
+    "name": "Abhishek Sharma",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$1,074,435"
+  },
+  {
+    "playerId": "ENG-040",
+    "name": "Phil Salt",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "PAK-011",
+    "name": "Noman Ali",
+    "country": "Pakistan",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$100,000"
+  },
+  {
+    "playerId": "AUS-004",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "NZ-022",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$1,400,000"
+  },
+  {
+    "playerId": "SL-034",
+    "name": "Kamindu Mendis",
+    "country": "Sri Lanka",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left/right-arm",
+    "currentPrice": "$800,000"
+  },
+  {
+    "playerId": "SA-007",
+    "name": "Temba Bavuma",
+    "country": "South Africa",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "currentPrice": "$500,000"
+  },
+  {
+    "playerId": "IND-088",
+    "name": "Yashasvi Jaiswal",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "currentPrice": "$1,800,000"
+  },
+  {
+    "playerId": "PAK-042",
+    "name": "Saud Shakeel",
+    "country": "Pakistan",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$300,000"
+  },
+  {
+    "playerId": "IND-045",
+    "name": "Varun Chakaravarthy",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak (Mystery)",
+    "currentPrice": "$1,289,321"
+  },
+  {
+    "playerId": "ENG-032",
+    "name": "Adil Rashid",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "currentPrice": "$1,000,000"
+  },
+  {
+    "playerId": "SA-025",
+    "name": "Marco Jansen",
+    "country": "South Africa",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Left-arm fast",
+    "currentPrice": "$752,122"
+  },
+  {
+    "playerId": "NZ-011",
+    "name": "Matt Henry",
+    "country": "New Zealand",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "currentPrice": "$600,000"
+  },
+  {
+    "playerId": "AUS-082",
+    "name": "Adam Zampa",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "WI-015",
+    "name": "Shai Hope",
+    "country": "West Indies",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$900,000"
+  },
+  {
+    "playerId": "AFG-005",
+    "name": "Ibrahim Zadran",
+    "country": "Afghanistan",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium-fast",
+    "currentPrice": "$500,000"
+  },
+  {
+    "playerId": "IND-022",
+    "name": "Suryakumar Yadav",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$1,800,000"
+  },
+  {
+    "playerId": "ENG-063",
+    "name": "Jos Buttler",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$1,800,000"
+  },
+  {
+    "playerId": "AUS-091",
+    "name": "Josh Hazlewood",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "currentPrice": "$1,343,075"
+  },
+  {
+    "playerId": "ZIM-024",
+    "name": "Sikandar Raza",
+    "country": "Zimbabwe",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$400,000"
+  },
+  {
+    "playerId": "IND-012",
+    "name": "Hardik Pandya",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "currentPrice": "$1,611,652"
+  },
+  {
+    "playerId": "SA-018",
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast",
+    "currentPrice": "$1,100,000"
+  },
+  {
+    "playerId": "SL-017",
+    "name": "Pathum Nissanka",
+    "country": "Sri Lanka",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$700,000"
+  },
+  {
+    "playerId": "NZ-045",
+    "name": "Rachin Ravindra",
+    "country": "New Zealand",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "PAK-021",
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "IND-048",
+    "name": "Axar Patel",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Slow left-arm orthodox",
+    "currentPrice": "$1,289,321"
+  },
+  {
+    "playerId": "ENG-019",
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "currentPrice": "$1,000,000"
+  },
+  {
+    "playerId": "AFG-001",
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$400,000"
+  },
+  {
+    "playerId": "IND-033",
+    "name": "Kuldeep Yadav",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm wrist spin",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "ENG-055",
+    "name": "Jofra Archer",
+    "country": "England",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "currentPrice": "$1,343,075"
+  },
+  {
+    "playerId": "SA-009",
+    "name": "Aiden Markram",
+    "country": "South Africa",
+    "image": "https://example.com",
+    "role": "Batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$1,200,000"
+  },
+  {
+    "playerId": "AUS-011",
+    "name": "Nathan Lyon",
+    "country": "Australia",
+    "image": "https://example.com",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$500,000"
+  },
+  {
+    "playerId": "IND-066",
+    "name": "Sanju Samson",
+    "country": "India",
+    "image": "https://example.com",
+    "role": "Wicketkeeper-batter",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "currentPrice": "$1,504,208"
+  },
+  {
+    "playerId": "BAN-001",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "image": "https://example.com",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "currentPrice": "$400,000"
+  }
+]
