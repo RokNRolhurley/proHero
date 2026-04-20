@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/NavBar/Navbar';
 import OngoingTicket from './Components/OngoingTicket/OngoingTicket';
 import CustomerTickets from './Components/CustomerTickets/CustomerTickets';
+import TicketHeaders from './Components/TicketHeaders/TicketHeaders';
 
 
 const fetchtickets = async() => {
@@ -21,10 +22,10 @@ function App() {
     <>
       
       <Navbar></Navbar>
-      {/* <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
          <OngoingTicket ticketPromise={ticketPromise}></OngoingTicket>
-       </Suspense> */}
-
+       </Suspense>
+      <TicketHeaders></TicketHeaders>
       <Suspense fallback={<div>Loading...</div>}>
       <CustomerTickets ticketPromise={ticketPromise}></CustomerTickets>
       </Suspense> 
