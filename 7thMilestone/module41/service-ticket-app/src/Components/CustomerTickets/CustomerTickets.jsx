@@ -16,8 +16,8 @@ const CustomerTickets = ({ ticketPromise }) => {
                 <h1>Customer Tickets</h1>
                 <h1 className='bold'>Task Status</h1>
             </div>   
-                <div className=' flex justify-between '>
-                     <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
+                <div className=' flex flex-wrap lg:flex-nowrap justify-between'>
+                     <div className='grid grid-cols-1 md:grid-cols-2  sm:grid-cols-1 gap-2'>
                         {ticketInfo.map((ticket) => (
                         <div key={ticket.id} className="card card-border bg-base-100 w-96 mb-4">
                             <div className="card-body">
@@ -45,9 +45,9 @@ const CustomerTickets = ({ ticketPromise }) => {
                             
                         <div className="card w-96 bg-base-100 card-xs shadow-sm">
                                  <div className="card-body">
-                                            <h2 className="card-title">Payment Failed- Card Declined</h2>
+                                            <h2 className="card-title ">Payment Failed- Card Declined</h2>
                                         <div className="justify-end card-actions">
-                                            <button className="btn w-full bg-[#422AD5]">Complete</button>
+                                            <button className="btn w-full bg-[#422AD5] text-white">Complete</button>
                                         </div>
                                  </div>
                         </div>
@@ -55,7 +55,7 @@ const CustomerTickets = ({ ticketPromise }) => {
                                  <div className="card-body">
                                             <h2 className="card-title">Incorrect billing Address</h2>
                                         <div className="justify-end card-actions">
-                                            <button className="btn w-full bg-[#422AD5]">Complete</button>
+                                            <button className="btn w-full bg-[#422AD5] text-white">Complete</button>
                                         </div>
                                  </div>
                         </div>

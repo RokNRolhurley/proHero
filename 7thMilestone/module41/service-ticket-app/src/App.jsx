@@ -25,7 +25,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
          <OngoingTicket ticketPromise={ticketPromise}></OngoingTicket>
        </Suspense>
-      <TicketHeaders></TicketHeaders>
+      {/* <TicketHeaders></TicketHeaders> */}
       <Suspense fallback={<div>Loading...</div>}>
       <CustomerTickets ticketPromise={ticketPromise}></CustomerTickets>
       </Suspense> 
