@@ -16,7 +16,7 @@ const Navbar = () => {
                     <li><a>Contact</a></li>
                     <li>
                         <details>
-                            <summary className="bg-[#422AD5]">New Ticket</summary>
+                            <summary className="bg-[#422AD5] text-white">New Ticket</summary>
                         </details>
                     </li>
                 </ul>
