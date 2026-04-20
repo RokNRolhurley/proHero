@@ -1,0 +1,272 @@
+[
+  {
+    "id": "TIC-001",
+    "title": "Login Authentication Error",
+    "description": "User unable to log in; receives a 500 error after entering credentials.",
+    "customer": "Global Industries",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-15T08:30:00Z"
+  },
+  {
+    "id": "TIC-002",
+    "title": "Broken Link in Footer",
+    "description": "The 'Privacy Policy' link in the footer leads to a 404 page.",
+    "customer": "Design Studio Co.",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-04-15T09:15:00Z"
+  },
+  {
+    "id": "TIC-003",
+    "title": "Billing Discrepancy April",
+    "description": "Customer was overcharged by $15.00 compared to their subscription tier.",
+    "customer": "Vertex Solutions",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-04-15T10:45:00Z"
+  },
+  {
+    "id": "TIC-004",
+    "title": "Slow Dashboard Loading",
+    "description": "The main analytics dashboard takes over 10 seconds to render data.",
+    "customer": "Eco Systems",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-16T11:00:00Z"
+  },
+  {
+    "id": "TIC-005",
+    "title": "API Key Reset Request",
+    "description": "Security breach suspected; need immediate rotation of production API keys.",
+    "customer": "Secure FinTech",
+    "priority": "Critical",
+    "status": "Closed",
+    "createdAt": "2026-04-16T13:20:00Z"
+  },
+  {
+    "id": "TIC-006",
+    "title": "Mobile App Crash on Launch",
+    "description": "iOS app crashes immediately upon opening on iPhone 15.",
+    "customer": "Individual User",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-16T14:50:00Z"
+  },
+  {
+    "id": "TIC-007",
+    "title": "Feature Request: Dark Mode",
+    "description": "User requesting native dark mode support for the web portal.",
+    "customer": "Creative Agency",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-17T09:05:00Z"
+  },
+  {
+    "id": "TIC-008",
+    "title": "Missing Export Data",
+    "description": "CSV export for Q1 reports is missing the 'Total Revenue' column.",
+    "customer": "Data Corp",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-04-17T10:30:00Z"
+  },
+  {
+    "id": "TIC-009",
+    "title": "Password Reset Email Not Sent",
+    "description": "User attempted to reset password but never received the verification email.",
+    "customer": "Summit Logistics",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-17T11:45:00Z"
+  },
+  {
+    "id": "TIC-010",
+    "title": "Cannot Upload Profile Picture",
+    "description": "File upload fails consistently with 'Invalid Format' even for .jpg files.",
+    "customer": "Social Media Hub",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-04-17T14:10:00Z"
+  },
+  {
+    "id": "TIC-011",
+    "title": "Enterprise SSO Integration Fail",
+    "description": "Okta integration failing to map user roles correctly during handshake.",
+    "customer": "Mega Corp",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-04-18T08:00:00Z"
+  },
+  {
+    "id": "TIC-012",
+    "title": "Payment Method Declined",
+    "description": "Customer unable to update credit card; receiving generic 'Declined' message.",
+    "customer": "Retail Express",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-18T09:30:00Z"
+  },
+  {
+    "id": "TIC-013",
+    "title": "Duplicate Notification Spam",
+    "description": "Users receiving 5-10 duplicate push notifications for every one alert.",
+    "customer": "Quick Alerts Inc",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-04-18T10:15:00Z"
+  },
+  {
+    "id": "TIC-014",
+    "title": "Unable to Delete Workspace",
+    "description": "Error message 'Dependencies exist' when trying to delete an empty workspace.",
+    "customer": "Draft Co.",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-18T13:45:00Z"
+  },
+  {
+    "id": "TIC-015",
+    "title": "Incorrect Language Display",
+    "description": "French localization shows Spanish text in the settings menu.",
+    "customer": "Euro Travel",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-18T15:20:00Z"
+  },
+  {
+    "id": "TIC-016",
+    "title": "Service Outage - Region West",
+    "description": "All users in US-West reporting inability to access the platform.",
+    "customer": "Various",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-04-19T07:10:00Z"
+  },
+  {
+    "id": "TIC-017",
+    "title": "Invitation Link Expired",
+    "description": "New user invitations expire within 1 hour instead of the documented 24 hours.",
+    "customer": "HR Tech",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-19T09:00:00Z"
+  },
+  {
+    "id": "TIC-018",
+    "title": "Webhook Payload Empty",
+    "description": "Incoming webhooks are hitting the endpoint but the body is empty.",
+    "customer": "DevOps Ltd",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-04-19T10:40:00Z"
+  },
+  {
+    "id": "TIC-019",
+    "title": "Broken Search Filtering",
+    "description": "Filtering by 'Date Range' in the search bar yields no results.",
+    "customer": "Archive Pro",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-04-19T11:55:00Z"
+  },
+  {
+    "id": "TIC-020",
+    "title": "Bulk Upload Timeout",
+    "description": "Uploading a CSV with >500 rows results in a gateway timeout.",
+    "customer": "Inventory Masters",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-19T14:30:00Z"
+  },
+  {
+    "id": "TIC-021",
+    "title": "Logo Transparency Issue",
+    "description": "Uploaded PNG logos are showing a black background instead of transparency.",
+    "customer": "Brand Labs",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-04-19T16:00:00Z"
+  },
+  {
+    "id": "TIC-022",
+    "title": "Incorrect Tax Calculation",
+    "description": "Tax for Canadian customers is not including PST in specific provinces.",
+    "customer": "Maple Sales",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-20T08:15:00Z"
+  },
+  {
+    "id": "TIC-023",
+    "title": "Missing Permission Level",
+    "description": "Need a 'Viewer-Only' role that doesn't exist in current settings.",
+    "customer": "Gov Services",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-04-20T08:45:00Z"
+  },
+  {
+    "id": "TIC-024",
+    "title": "Trial Extension Request",
+    "description": "Customer needs 7 more days to evaluate the Pro features.",
+    "customer": "Small Biz Inc",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-20T09:10:00Z"
+  },
+  {
+    "id": "TIC-025",
+    "title": "Markdown Not Rendering",
+    "description": "The comment section is showing raw Markdown tags rather than formatted text.",
+    "customer": "Writer's Block",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-20T09:40:00Z"
+  },
+  {
+    "id": "TIC-026",
+    "title": "Email Template CSS Broken",
+    "description": "Notification emails look distorted in Outlook desktop client.",
+    "customer": "Corp Comms",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-04-20T10:05:00Z"
+  },
+  {
+    "id": "TIC-027",
+    "title": "Database Connection Lag",
+    "description": "High latency observed in database queries during peak hours.",
+    "customer": "System Admin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-04-20T10:30:00Z"
+  },
+  {
+    "id": "TIC-028",
+    "title": "Wrong Currency Display",
+    "description": "Invoices are showing $ symbols for Euro-based accounts.",
+    "customer": "Berlin Hub",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-04-20T11:00:00Z"
+  },
+  {
+    "id": "TIC-029",
+    "title": "Account Deletion Confirmation",
+    "description": "User wants to confirm their data has been purged post-cancellation.",
+    "customer": "Individual User",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-04-20T11:45:00Z"
+  },
+  {
+    "id": "TIC-030",
+    "title": "Keyboard Shortcut Conflict",
+    "description": "Ctrl+S in the app conflicts with browser save function.",
+    "customer": "Power Users Group",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-04-20T12:00:00Z"
+  }
+]
