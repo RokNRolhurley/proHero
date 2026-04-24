@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nav-01",
+    "name": "Home Dashboard",
+    "path": "/home"
+  },
+  {
+    "id": "nav-02",
+    "name": "Support Queue",
+    "path": "/tickets/all"
+  },
+  {
+    "id": "nav-03",
+    "name": "Customer Directory",
+    "path": "/customers/list"
+  },
+  {
+    "id": "nav-04",
+    "name": "Performance Reports",
+    "path": "/reports/performance"
+  },
+  {
+    "id": "nav-05",
+    "name": "System Configuration",
+    "path": "/admin/settings"
+  },
+  {
+    "id": "nav-06",
+    "name": "Knowledge Base",
+    "path": "/docs/articles"
+  },
+  {
+    "id": "nav-07",
+    "name": "Billing Overview",
+    "path": "/account/billing"
+  }
+]
