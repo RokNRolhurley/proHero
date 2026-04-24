@@ -1,21 +1,27 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
+import PricingOption from './Components/PricingOption/PricingOption'
+
+const pricingPromise = fetch('/pricingData.json').then(res => res.json())
 
 function App() {
   
 
   return (
     <>
-      <section id="center">
+      
           {/* <h1 className="text-3xl font-bold text-center text-primary">Hello world!</h1> */}
+      <header>
+        <Navbar></Navbar>
+      </header>
       
-      <Navbar></Navbar>
-          
+     <main>
+        <Suspense fallback={<span cla></span>}>
+            <PricingOption pricingPromise={pricingPromise}> </PricingOption>
+        </Suspense>
+     </main>
       
-      
-      
-       </section>
 
       
 

@@ -1,6 +1,4 @@
-import React from 'react';
-
-const pricingData = [
+[
   {
     "id": "plan-001",
     "name": "Basic Core",
@@ -47,13 +45,3 @@ const pricingData = [
     "limitations": "Premium PT sessions require 24h booking"
   }
 ]
-
-const PricingOption = ({pricingPromise}) => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
-
-export default PricingOption;
