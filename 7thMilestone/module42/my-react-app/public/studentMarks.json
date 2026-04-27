@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "studentName": "Alex Johnson",
+    "physics": 88,
+    "math": 92,
+    "chemistry": 85,
+    "total": 265,
+    "grade": "A"
+  },
+  {
+    "id": 2,
+    "studentName": "Maria Garcia",
+    "physics": 76,
+    "math": 81,
+    "chemistry": 79,
+    "total": 236,
+    "grade": "B"
+  },
+  {
+    "id": 3,
+    "studentName": "Liam Smith",
+    "physics": 95,
+    "math": 98,
+    "chemistry": 91,
+    "total": 284,
+    "grade": "A+"
+  },
+  {
+    "id": 4,
+    "studentName": "Chloe Chen",
+    "physics": 64,
+    "math": 70,
+    "chemistry": 68,
+    "total": 202,
+    "grade": "C"
+  },
+  {
+    "id": 5,
+    "studentName": "Omar Syed",
+    "physics": 82,
+    "math": 85,
+    "chemistry": 89,
+    "total": 256,
+    "grade": "B+"
+  },
+  {
+    "id": 6,
+    "studentName": "Sarah Miller",
+    "physics": 91,
+    "math": 88,
+    "chemistry": 94,
+    "total": 273,
+    "grade": "A"
+  },
+  {
+    "id": 7,
+    "studentName": "James Wilson",
+    "physics": 58,
+    "math": 62,
+    "chemistry": 55,
+    "total": 175,
+    "grade": "D"
+  },
+  {
+    "id": 8,
+    "studentName": "Elena Rossi",
+    "physics": 73,
+    "math": 75,
+    "chemistry": 72,
+    "total": 220,
+    "grade": "B"
+  },
+  {
+    "id": 9,
+    "studentName": "David Park",
+    "physics": 87,
+    "math": 94,
+    "chemistry": 83,
+    "total": 264,
+    "grade": "A"
+  },
+  {
+    "id": 10,
+    "studentName": "Aisha Khan",
+    "physics": 79,
+    "math": 82,
+    "chemistry": 80,
+    "total": 241,
+    "grade": "B"
+  }
+]
