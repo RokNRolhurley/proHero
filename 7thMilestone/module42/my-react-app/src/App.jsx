@@ -5,6 +5,7 @@ import PricingOption from './Components/PricingOption/PricingOption'
 import ResultCharts from './Components/ResultCharts/ResultCharts'
 import axios from 'axios'
 import GradeChart from './Components/GradeChart/GradeChart'
+import GoogleDocGrid from '../../../../../../Users/i9/Downloads/GoogleDocGrid'
 
 const pricingPromise = fetch('/pricingData.json').then(res => res.json())
 const marksPromise = axios.get('studentMarks.json')
@@ -29,6 +30,8 @@ function App() {
         </Suspense>
 
         <ResultCharts></ResultCharts>
+        <test></test>
+        <GoogleDocGrid></GoogleDocGrid>
         
      </main>
       
