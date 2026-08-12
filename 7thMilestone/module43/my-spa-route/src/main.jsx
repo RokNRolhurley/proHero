@@ -67,6 +67,10 @@ import PostDetails from './components/PostDetails/PostDetails.jsx'
   { path: 'app', 
     Component: App
   },
+  {
+    path: '*',
+    element: <h3>Not Found: 404 Status</h3>
+  }
 
   ])
 
