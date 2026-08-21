@@ -6,6 +6,7 @@ import './App.css'
 import SimpleForm from './Componenets/SimpleForm/SimpleForm'
 import FormAction from './Componenets/FormAction/FormAction'
 import ControlledField from './Componenets/ControlledField/ControlledField'
+import UncontrolledField from './Componenets/UncontrolledField/UncontrolledField'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
       <h1>Explore React Form</h1>
       {/* <SimpleForm></SimpleForm> */}
       {/* <FormAction></FormAction> */}
-      <ControlledField></ControlledField>
+      {/*<ControlledField></ControlledField>*/}
+      <UncontrolledField></UncontrolledField>
 
       
     </>
