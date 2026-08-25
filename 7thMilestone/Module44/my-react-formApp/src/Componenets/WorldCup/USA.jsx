@@ -1,11 +1,11 @@
 import React from 'react';
 
-const England = () => {
+const USA = () => {
     return (
         <div>
-            <h3>Team England</h3>
+            <h3>Team USA</h3>
         </div>
     );
 };
 
-export default England;
+export default USA;

@@ -1,0 +1,10 @@
+.worldcup-tree div{
+    border: 2px solid purple;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+}

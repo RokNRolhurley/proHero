@@ -11,7 +11,10 @@ import HookForm from './Componenets/HookForm/HookForm'
 import ProductManagement from './Componenets/ProductManagement/ProductManagement'
 import FamilyTree from './Componenets/FamilyTree/FamilyTree'
 import ItemMangement from './Componenets/ItemManagement/ItemMangement'
+import WorldCup from './Componenets/WorldCup/WorldCup'
 
+
+// const teamDataPromise = fetch('https://github.com/openfootball/worldcup.json/blob/master/2026/worldcup.teams.json').then(res => res.json());
 
 
 
@@ -20,8 +23,6 @@ function App() {
 
   return (
     <>
-      
-
       <h1>Explore React Form</h1>
       {/* <SimpleForm></SimpleForm> */}
       {/* <FormAction></FormAction> */}
@@ -30,7 +31,8 @@ function App() {
       {/* <HookForm></HookForm> */}
       {/*<ProductManagement></ProductManagement>*/}
       {/*<FamilyTree></FamilyTree>*/}
-      <ItemMangement></ItemMangement>
+      {/*<ItemMangement></ItemMangement>*/}
+      <WorldCup></WorldCup>
       
       
       
