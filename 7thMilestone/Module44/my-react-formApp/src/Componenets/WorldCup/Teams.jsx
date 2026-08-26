@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { use } from 'react';
 import RegionAmerica from './RegionAmerica';
 import RegionEurope from './RegionEurpoe';
 
 
-const Teams = () => {
+
+
+
+
+const Teams = ({teamDataPromise}) => {
+
+// const teamDetails = use(teamDataPromise);
+
+
+
     return (
         <div>
              <h3>List Of The Teams</h3> 

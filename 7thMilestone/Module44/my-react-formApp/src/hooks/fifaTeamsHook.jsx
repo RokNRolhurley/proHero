@@ -43,7 +43,9 @@ export const useTeam = (teamName, selectedIndexes = []) => {
         setError(err.message);
         setLoading(false);
       });
-  }, [teamName, selectedIndexes]);
+  }, 
+  
+  [teamName, selectedIndexes]);
 
   return { players, playerDetails, loading, error };
 };
