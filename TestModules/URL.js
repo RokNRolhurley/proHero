@@ -31,9 +31,19 @@ async function fetchData() {
         // console.log(teamData);
         // console.log(data[0]);
         const name = teamData.name; 
-        const teamDetails  = document.getElementById('teamDetails');
+        const continent = teamData.continent;
+        const fifaCode = teamData.fifa_code;
+
+        const details = `Name: ${name}
+                         Continent: ${continent}
+                         Fifa Code: ${fifaCode}`;
         
-        console.log(name);
+
+        const teamDeatails = document.getElementById('teamDetails');
+        
+        teamDeatails.textContent = details;
+
+         console.log(name, continent, fifaCode);
 
     
 
