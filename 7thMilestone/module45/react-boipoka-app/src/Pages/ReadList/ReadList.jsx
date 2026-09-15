@@ -8,8 +8,9 @@ import Book from '../Books/Book';
 
 const ReadList = () => {
     const [readList,SetReadList] = useState([]);
+    const [sort, SetSort]  = useState('');
     const data = useLoaderData();
-    // console.log(data);
+    console.log(data);
 
     useEffect(() => {
         const storedBookData= getStoredBook();
@@ -22,10 +23,27 @@ const ReadList = () => {
 
     },[]) 
 
+    const handelSort = (type) =>{
+        SetSort(type)
+        if(type=="pages"){
+            const sortedByPage=[...readList].sort((a,b)=> a.totalPages-b.totalPages);
+            SetReadList(sortedByPage);
+        }
+
+    }
 
     return (
         <div>
-            
+              <div className="dropdown">
+
+                    <div tabIndex={0} role="button" className="btn m-1">Sort by : {sort?sort:""}</div>
+                        <ul tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                            <li><a onClick={()=>handelSort("pages")}>Pages</a></li>
+                            <li><a onClick={()=>handelSort("ratings")}>Ratings</a></li>
+                        </ul>
+                    </div>
+
+
         <Tabs>
             <TabList>
                 <Tab>Title 1</Tab>
@@ -34,9 +52,9 @@ const ReadList = () => {
 
             <TabPanel>
                 <h2>Book I Read: {readList.length} </h2>
-                {
+                {/* {
                     readList.map(b=><Book key={b.bookId} singleBook={b}></Book>)
-                }
+                } */}
 
             </TabPanel>
             <TabPanel>
