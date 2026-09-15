@@ -10,15 +10,15 @@ const ReadList = () => {
     const [readList,SetReadList] = useState([]);
     const [sort, SetSort]  = useState('');
     const data = useLoaderData();
-    console.log(data);
+    // console.log(data);
 
     useEffect(() => {
         const storedBookData= getStoredBook();
         const convertedStoredBook = storedBookData.map(id=>parseInt(id))
         // console.log(storedBookData);
-        console.log(convertedStoredBook);
+        // console.log(convertedStoredBook);
         const myReadList=data.filter(book=>convertedStoredBook.includes(book.bookId));
-        console.log(myReadList);
+        // console.log(myReadList);
         SetReadList(myReadList)
 
     },[]) 
@@ -28,6 +28,12 @@ const ReadList = () => {
         if(type=="pages"){
             const sortedByPage=[...readList].sort((a,b)=> a.totalPages-b.totalPages);
             SetReadList(sortedByPage);
+            console.log(sortedByPage);
+        }
+        if(type=="ratings"){
+            const sortedByRating=[...readList].sort((a,b)=> a.rating-b.rating);
+            SetReadList(sortedByRating);
+            console.log(sortedByRating);
         }
 
     }
