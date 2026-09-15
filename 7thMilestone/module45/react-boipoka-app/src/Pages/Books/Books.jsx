@@ -21,7 +21,7 @@ const Books = ({data}) => {
 
     return (
         <div>
-            <h3>JSON Data Source</h3>
+            {/*<h3>JSON Data Source</h3>*/}
             <h1 className='text-3xl text-center p-6'>Books</h1>
             <Suspense fallback={<span>Loading...</span>}>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>

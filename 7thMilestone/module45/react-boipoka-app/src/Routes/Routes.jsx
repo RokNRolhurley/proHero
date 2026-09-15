@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
 import About from "../Componenets/About/About";
 import BookDetails from "../Pages/Books/BookDetails";
+import ReadList from "../Pages/ReadList/ReadList";
 
 
 export const router = createBrowserRouter([
@@ -25,8 +26,13 @@ export const router = createBrowserRouter([
           },
           {
             path:'/bookDetails/:id',
-             loader:()=> fetch('https://raw.githubusercontent.com/RokNRolhurley/proHero/refs/heads/main/7thMilestone/module45/react-boipoka-app/public/booksData.json').then(res =>res.json()),
+            loader:()=> fetch('https://raw.githubusercontent.com/RokNRolhurley/proHero/refs/heads/main/7thMilestone/module45/react-boipoka-app/public/booksData.json').then(res =>res.json()),
             Component: BookDetails,
+          },
+          {
+            path:'readList',
+            loader:()=> fetch('https://raw.githubusercontent.com/RokNRolhurley/proHero/refs/heads/main/7thMilestone/module45/react-boipoka-app/public/booksData.json').then(res =>res.json()),
+            Component: ReadList,
           }
 
       ]  

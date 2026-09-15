@@ -25,15 +25,12 @@ const Book = ({singleBook}) => {
             <div className="justify-right">
                 <span>Author: {author}</span>
                 <br/>
-                <span>Publisher: {publisher}</span>
-                <br/>
                 <span>Categoty: {category}</span>
                 <br/>
                 <span>Rating: {rating} </span>
                 <br/>
                 <span>Tags: {tags.join(', ')}</span>
-                <br/>
-                <span>Year: {yearOfPublishing} </span>
+                
             </div>   
             
                 <div className="card-actions justify-center">
