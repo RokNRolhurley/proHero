@@ -58,9 +58,9 @@ const ReadList = () => {
 
             <TabPanel>
                 <h2>Book I Read: {readList.length} </h2>
-                {/* {
+                 {
                     readList.map(b=><Book key={b.bookId} singleBook={b}></Book>)
-                } */}
+                } 
 
             </TabPanel>
             <TabPanel>

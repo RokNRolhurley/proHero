@@ -33,10 +33,10 @@ const Book = ({singleBook}) => {
                 
             </div>   
             
-                <div className="card-actions justify-center">
+                {/*<div className="card-actions justify-center">
                     <div className="badge badge-outline">Preview</div>
                     <div className="badge badge-outline">Buy</div>
-                </div>
+                </div>*/}
             </div>
         </div>
         </Link>
