@@ -8,4 +8,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;<h3>This is Footer</h3>
+export default Footer;
