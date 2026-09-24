@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "TaskFlow Pro",
+    "companyName": "TechNova",
+    "id": 1,
+    "description": "Advanced project management and team collaboration platform.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "Cloud Notes",
+    "companyName": "Sky Soft",
+    "id": 2,
+    "description": "Secure note-taking app with cloud synchronization.",
+    "size": 28,
+    "reviews": 875,
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "FitTracker",
+    "companyName": "Health Sync",
+    "id": 3,
+    "description": "Track workouts, calories, and health metrics.",
+    "size": 52,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "BudgetWise",
+    "companyName": "FinCore",
+    "id": 4,
+    "description": "Personal finance and expense management solution.",
+    "size": 38,
+    "reviews": 640,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "PhotoMagic",
+    "companyName": "PixelWorks",
+    "id": 5,
+    "description": "Professional photo editing and enhancement tools.",
+    "size": 75,
+    "reviews": 1890,
+    "ratingAvg": 4.9,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 65 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "CodeMaster",
+    "companyName": "DevStack",
+    "id": 6,
+    "description": "Coding tutorials and integrated development workspace.",
+    "size": 62,
+    "reviews": 1560,
+    "ratingAvg": 4.6,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 390 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "Language Hub",
+    "companyName": "LinguaTech",
+    "id": 7,
+    "description": "Learn new languages through interactive lessons.",
+    "size": 41,
+    "reviews": 920,
+    "ratingAvg": 4.4,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 482 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "MusicWave",
+    "companyName": "AudioSphere",
+    "id": 8,
+    "description": "Stream and organize your favorite music tracks.",
+    "size": 56,
+    "reviews": 2750,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.png",
+    "title": "TravelMate",
+    "companyName": "JourneyApps",
+    "id": 9,
+    "description": "Plan trips, book hotels, and manage itineraries.",
+    "size": 49,
+    "reviews": 1110,
+    "ratingAvg": 4.5,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 623 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.png",
+    "title": "ShopSmart",
+    "companyName": "RetailEdge",
+    "id": 10,
+    "description": "Smart shopping assistant with deal alerts.",
+    "size": 34,
+    "reviews": 730,
+    "ratingAvg": 4.2,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app11.png",
+    "title": "NewsPulse",
+    "companyName": "MediaNext",
+    "id": 11,
+    "description": "Personalized news aggregator with live updates.",
+    "size": 27,
+    "reviews": 510,
+    "ratingAvg": 4.1,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 145 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.png",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "id": 12,
+    "description": "Real-time weather forecasts and severe alerts.",
+    "size": 21,
+    "reviews": 1320,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 115 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.png",
+    "title": "RecipeBook",
+    "companyName": "KitchenSoft",
+    "id": 13,
+    "description": "Explore cooking recipes from around the world.",
+    "size": 39,
+    "reviews": 880,
+    "ratingAvg": 4.4,
+    "downloads": 105000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 102 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.png",
+    "title": "CryptoWatch",
+    "companyName": "BlockInsights",
+    "id": 14,
+    "description": "Monitor cryptocurrency prices and market trends.",
+    "size": 46,
+    "reviews": 1675,
+    "ratingAvg": 4.3,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.png",
+    "title": "StudyBuddy",
+    "companyName": "EduVerse",
+    "id": 15,
+    "description": "Learning assistant for students and professionals.",
+    "size": 44,
+    "reviews": 1450,
+    "ratingAvg": 4.8,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.png",
+    "title": "SecureVault",
+    "companyName": "CyberShield",
+    "id": 16,
+    "description": "Password manager with military-grade encryption.",
+    "size": 31,
+    "reviews": 940,
+    "ratingAvg": 4.7,
+    "downloads": 125000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 88 },
+      { "name": "4 star", "count": 215 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app17.png",
+    "title": "MovieStream",
+    "companyName": "VisionMedia",
+    "id": 17,
+    "description": "Watch movies and TV shows on demand.",
+    "size": 88,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app18.png",
+    "title": "GameArena",
+    "companyName": "PlayWorks",
+    "id": 18,
+    "description": "Multiplayer gaming platform with tournaments.",
+    "size": 95,
+    "reviews": 2750,
+    "ratingAvg": 4.6,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 205 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app19.png",
+    "title": "MindRelax",
+    "companyName": "WellBeing Labs",
+    "id": 19,
+    "description": "Meditation and mindfulness exercises for stress relief.",
+    "size": 36,
+    "reviews": 1025,
+    "ratingAvg": 4.8,
+    "downloads": 175000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 75 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app20.png",
+    "title": "AutoPlanner",
+    "companyName": "ProductiveAI",
+    "id": 20,
+    "description": "AI-powered scheduling and task automation assistant.",
+    "size": 53,
+    "reviews": 1180,
+    "ratingAvg": 4.7,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 88 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 750 }
+    ]
+  }
+]

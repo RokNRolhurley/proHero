@@ -18,7 +18,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='hero-content flex-col lg:flex-row'>
-                <img src={frontImage} alt="" srcset="" className='rounded-lg shadow 2xl ' />
+                <img src={frontImage} alt="" className='rounded-lg shadow 2xl ' />
             </div>
         </div>
     );
