@@ -30,7 +30,16 @@ const Navbar = () => {
                     </div>
                     <div className='flex'>
                         <img src={heroIcon} className='h-15 w-15'/>
-                        <span className="text-xl mt-4 ">HERO.IO</span>
+                        <span className="text-xl mt-4 bg-purple" style={{
+                        fontSize:20, }}>HERO.IO</span>
+                        {/* <span 
+                        className="text-xl mt-4" 
+                        style={{ fontSize: 20, backgroundColor: 'purple', color: 'white' }}
+                        >
+                        HERO.IO
+                        </span> */}
+
+
                         {/* <a className="btn btn-ghost text-xl mt-2 text-black ">HERO.IO</a> */}
                     </div>
                  </div>
@@ -40,7 +49,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Contribute</a>
+                    <a className="btn" style={{
+                    fontSize:20, backgroundColor: 'purple', color: 'white' }}>Contribute</a>
                 </div>
             </div>       
         </div>

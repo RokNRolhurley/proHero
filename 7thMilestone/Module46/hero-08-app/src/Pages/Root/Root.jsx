@@ -7,9 +7,18 @@ import { Outlet } from 'react-router';
 const Root = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            
+            
+            <section>
+                <Navbar></Navbar>
+            </section>
+            <section>
+                <Outlet></Outlet>
+            </section>
+            <section>
+                <Footer></Footer>    
+            </section>
+            
         </div>
     );
 };

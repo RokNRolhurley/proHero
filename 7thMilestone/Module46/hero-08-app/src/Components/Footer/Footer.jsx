@@ -3,14 +3,15 @@ import heroIcon from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <div>
-            <div className='flex  items-center'>
-                <div className='flex'>
-                    <img src={heroIcon} className='h-15 w-15'/>
+        <div className='bg-black'>
+            <div className='flex items-center'>
+                
+                <div className='flex mt-2'>
+                    <img src={heroIcon} className='h-15 w-15 ml-3'/>
                     <span className="text-xl mt-5 ">HERO.IO</span>
-                    
+                    <hr style={{ border: 'none', borderTop: '3px dotted #ff5733' }}/>
                 </div>
-                <div className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+                <div className="footer sm:footer-horizontal text-neutral-content items-center p-4">
                     <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <a>
                      <svg
@@ -51,9 +52,14 @@ const Footer = () => {
                     </nav>
                 </div>
             </div>
-
+            <div>
+                <hr className='mt-2' style={{ border: 'none', height: '4px', backgroundColor: '#333' }} />
+            </div>
             <div className='grid-flow-col gap-4 md:place-self-center md:justify-self-center'>
-                    <aside className="grid-flow-col items-center">
+                
+                    <aside className="grid-flow-col items-center mt-2 mb-2" style={{
+                        fontSize: '20px'
+                    }}>
                         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
                     </aside>
             </div>
